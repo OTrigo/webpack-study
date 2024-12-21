@@ -1,0 +1,1 @@
+!async function(){try{const t=await fetch("https://localhost:8000/endpoint"),o=await t.json();console.log(o)}catch(t){throw new Error("Failed to fetch in the endpoint because the endpoint does not exist")}}();
